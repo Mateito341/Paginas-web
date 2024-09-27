@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<HTML lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Catálogo</title>
+</head>
+<body>
+    <header class="bg-green-600 text-white py-4">
+        <div class="container mx-auto text-center">
+            <h1 class="text-3xl font-bold">Catálogo</h1>
+            <p class="mt-2">¡Compra tus artículos preferidos!</p>
+        </div>
+    </header>
+
+    <main class="container mx-auto my-8 p-4">
+        <section id="catalogo" class="text-center">
+            <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
+                
+                <!-- Tarjeta de la gorra -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-lg font-semibold">Gorra</h3>
+                    <!-- Se ajustan las clases para centrar la imagen -->
+                    <div class="flex justify-center items-center h-64">
+                        <img src="gorra.jpeg" alt="gorra" class="max-w-full h-full object-contain">
+                    </div>
+                    <p class="mt-2">30$US</p>
+                </div>
+
+                <!-- Tarjeta de los lentes -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-lg font-semibold">Lentes</h3>
+                    <div class="flex justify-center items-center h-64">
+                        <img src="lentes.jpeg" alt="lentes" class="max-w-full h-full object-contain">
+                    </div>
+                    <p class="mt-2">15$US</p>
+                </div>
+
+                <!-- Tarjeta de la remera -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-lg font-semibold">Remera</h3>
+                    <div class="flex justify-center items-center h-64">
+                        <img src="remera.jpeg" alt="remera" class="max-w-full h-full object-contain">
+                    </div>
+                    <p class="mt-2">20$US</p>
+                </div>
+            </div>
+        </section> 
+    </main>
+</body>
+</html>
